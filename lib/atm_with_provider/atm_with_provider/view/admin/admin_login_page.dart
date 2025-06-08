@@ -30,7 +30,7 @@ class _AdminLoginPageState extends State<AdminLoginPage> {
             children: [
               AppTexField(
                 controller: usernameController,
-                hintText: 'admin',
+                hintText: 'Admin',
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'bos goyma';
